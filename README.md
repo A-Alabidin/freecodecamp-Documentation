@@ -1,2 +1,5 @@
 # freecodecamp-Documentation
- Project from freecodecamp
+
+Third project. Responsive web design.
+
+"There is nothing impossible to they who will try."
