@@ -1,2 +1,9 @@
 @media screen {
 }
+header {
+  font-size: large;
+  font-weight: bold;
+}
+.variants {
+  font-weight: bold;
+}
