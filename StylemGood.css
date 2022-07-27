@@ -1,3 +1,25 @@
+@media only screen and (max-width: 600px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+  #navbar {
+    position: absolute;
+    top: 0%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 200px;
+    border-bottom: 1px solid;
+  }
+
+  main {
+    position: relative;
+    margin-left: 0;
+    margin-top: 200px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,11 +29,48 @@ body {
 }
 
 #navbar {
+  background-color: gainsboro;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 200px;
+  border: 1px double black;
+}
+
+.pad-boy {
+  text-align: center;
+  padding-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.nav-list {
+  padding: 10px 0;
+  font-family: cursive;
+  border-top: 1px dashed darkslategrey;
+  margin-left: 0;
+}
+
+.nav-list:last-of-type {
+  border-bottom: 1px dashed darkslategrey;
+}
+
+nav a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: darkslategrey;
+  font-size: small;
+  position: absolute;
+  top: 600px;
 }
 
 main {
@@ -19,18 +78,20 @@ main {
   padding: 10px;
 }
 
-footer {
-  text-align: center;
-  color: darkslategrey;
-  font-size: small;
-}
-
-@media screen {
-}
 header {
   font-size: large;
   font-weight: bold;
 }
+
+.cursive {
+  font-family: cursive;
+  border-top: 1px dashed gainsboro;
+}
+
+.cursive1 {
+  font-family: cursive;
+}
+
 .variants {
   font-weight: bold;
 }
