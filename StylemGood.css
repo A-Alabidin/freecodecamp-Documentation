@@ -1,8 +1,13 @@
 @media only screen and (max-width: 720px) {
-  nav #navbar {
+  #navbar,
+  ul {
+    border: 1px solid;
+    height: 207px;
+  }
+  nav,
+  #navbar {
     background-color: white;
     position: absolute;
-    display: block;
     top: 0;
     padding: 0;
     margin: 0;
